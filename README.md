@@ -1,6 +1,6 @@
 # Portafolio Personal - Anastasia Orellana
 
-Proyecto desarrollado para la **Evaluación Formativa N° 2 de DSY1104 - Desarrollo Fullstack II**.
+Proyecto desarrollado para la Evaluación Formativa N° 2 de DSY1104 - Desarrollo Fullstack II.
 
 El proyecto implementa un portafolio personal utilizando React, Bootstrap, datos JSON y pruebas unitarias con Jasmine y Karma.
 
@@ -11,7 +11,7 @@ El proyecto implementa un portafolio personal utilizando React, Bootstrap, datos
 
 ## Instalación
 
-Abre una terminal dentro de esta carpeta y ejecuta:
+Abrir una terminal dentro del proyecto y ejecutar:
 
 ```bash
 npm install
@@ -23,7 +23,7 @@ npm install
 npm run dev
 ```
 
-Vite mostrará una dirección local, normalmente `http://localhost:5173/`.
+Vite mostrará una dirección local, en este caso `http://localhost:5175/`.
 
 ## Crear versión de producción
 
@@ -95,14 +95,6 @@ src/
 - Accesibilidad básica mediante etiquetas `alt`, labels y navegación semántica.
 - Optimización mediante componentes reutilizables y recursos SVG livianos.
 
-## Antes de entregar
-
-1. Reemplaza `public/images/perfil.svg` por una fotografía profesional tuya si el docente exige una fotografía real.
-2. Reemplaza los enlaces `#` de Demo y GitHub por los enlaces reales de tus proyectos.
-3. Ejecuta `npm test` y `npm run test:coverage`.
-4. Ejecuta `npm run build`.
-5. Sube el proyecto a GitHub y publica la carpeta `dist` mediante GitHub Pages.
-6. Agrega capturas reales del portafolio y del informe de cobertura a este README si tu docente las solicita como evidencia.
 
 ## Autora
 
