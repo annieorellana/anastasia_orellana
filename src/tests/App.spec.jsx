@@ -9,7 +9,7 @@ afterEach(() => cleanup())
 describe('Portafolio personal - componentes críticos', () => {
   it('renderiza el nombre de la estudiante en la página principal', () => {
     render(<App />)
-    expect(screen.getByRole('heading', { name: /Hola, soy Anastasia Orellana/i })).not.toBeNull()
+    expect(screen.getByRole('heading', { name: /Anastasia Aracely Orellana Jaramillo/i })).not.toBeNull()
   })
 
   it('renderiza al menos tres proyectos', () => {
