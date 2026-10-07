@@ -5,7 +5,7 @@ function Inicio() {
         <div className="row align-items-center g-5">
           <div className="col-lg-7">
             <span className="badge rounded-pill text-bg-light mb-3">Ingeniería en Informática</span>
-            <h1 className="display-3 fw-bold">Hola, soy Anastasia Orellana.</h1>
+            <h1 className="display-3 fw-bold">Anastasia Aracely Orellana Jaramillo.</h1>
             <p className="lead mt-3">
               Estudiante de Ingeniería en Informática interesada en el desarrollo web,
               las redes y las tecnologías de software.
