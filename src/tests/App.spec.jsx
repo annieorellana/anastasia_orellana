@@ -29,7 +29,7 @@ describe('Portafolio personal - componentes críticos', () => {
     render(
       <ProyectoCard
         titulo="Proyecto de prueba"
-        imagen="/images/perfumes.svg"
+        imagen= src={`${import.meta.env.BASE_URL}images/perfumes.svg`}
         descripcion="Descripción de prueba"
         tecnologias="React"
         demo="#"

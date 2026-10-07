@@ -16,7 +16,7 @@ function Inicio() {
             </div>
           </div>
           <div className="col-lg-5 text-center">
-            <img src="/images/perfil.jpeg" className="profile-image" alt="Foto de perfil de Anastasia Orellana" />
+            <img src={`${import.meta.env.BASE_URL}images/perfil.jpeg`} className="profile-image" alt="Foto de perfil de Anastasia Orellana" />
           </div>
         </div>
       </div>
