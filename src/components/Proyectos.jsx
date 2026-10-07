@@ -4,7 +4,7 @@ const proyectos = [
   {
     id: 1,
     titulo: 'MetroSafe SOS',
-    imagen: '/images/metrosafe.svg',
+    imagen: '/images/metrosafe.png',
     descripcion: 'Aplicación web orientada a entregar una herramienta de apoyo para usuarios del Metro ante situaciones de emergencia.',
     tecnologias: 'HTML, CSS, JavaScript',
     demo: '#',
@@ -13,7 +13,7 @@ const proyectos = [
   {
     id: 2,
     titulo: 'AdoptaConecta',
-    imagen: '/images/adoptaconecta.svg',
+    imagen: '/images/adoptaconecta.png',
     descripcion: 'Plataforma web enfocada en facilitar la adopción responsable y conectar personas con mascotas que buscan un hogar.',
     tecnologias: 'HTML, CSS, JavaScript',
     demo: '#',
