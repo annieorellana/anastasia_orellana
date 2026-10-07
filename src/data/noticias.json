@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "titulo": "Nuevo proyecto de desarrollo web",
+    "fecha": "05/10/2026",
+    "contenido": "Se incorporó un nuevo proyecto de desarrollo web al portafolio, aplicando componentes reutilizables y diseño responsive."
+  },
+  {
+    "id": 2,
+    "titulo": "Aprendiendo React y pruebas unitarias",
+    "fecha": "07/10/2026",
+    "contenido": "Actualmente estoy trabajando con React, manejo de estado, props y pruebas unitarias para componentes frontend."
+  }
+]
