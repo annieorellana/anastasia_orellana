@@ -10,7 +10,6 @@ const proyectos = [
     demo: '#',
     github: '#'
   },
-
   {
     id: 2,
     titulo: 'AdoptaConecta',
@@ -20,7 +19,6 @@ const proyectos = [
     demo: '#',
     github: '#'
   },
-
   {
     id: 3,
     titulo: 'Perfume Store',
@@ -31,5 +29,25 @@ const proyectos = [
     github: '#'
   }
 ]
+
+function Proyectos() {
+  return (
+    <section id="proyectos" className="section-padding section-soft">
+      <div className="container">
+        <div className="section-heading text-center mb-5">
+          <span>02</span>
+          <h2>Mis proyectos</h2>
+          <p>Una selección de trabajos y proyectos académicos.</p>
+        </div>
+
+        <div className="row">
+          {proyectos.map((proyecto) => (
+            <ProyectoCard key={proyecto.id} {...proyecto} />
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
 
 export default Proyectos
